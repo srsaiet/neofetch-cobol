@@ -39,3 +39,6 @@ El base64 de la imagen va incrustado en el propio `neofetch.cob`
 - En WSL muestra valores adaptados (`WSL2`, `Weston (WSLg)`, GPU virtual).
 - Sin `lspci`/`xrandr`/GTK instalado, esos campos salen `N/A` (a propósito, no rompe).
 - `padlogo.py`, `checkwidth.py`, `recorta.py` son utilidades de desarrollo del logo.
+
+
+Se permite la modificacion total o parcial, dejando unicamente el nombre del programador y el enlace a este repositorio
