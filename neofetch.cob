@@ -1,4 +1,4 @@
-IDENTIFICATION DIVISION.
+       IDENTIFICATION DIVISION.
        PROGRAM-ID. NEOFETCH.
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
@@ -3614,6 +3614,7 @@ IDENTIFICATION DIVISION.
            DISPLAY ESC "[42C" ESC C-BOLD ESC C-GREEN "Disco /   : " ESC C-RESET FUNCTION TRIM(WS-DU) " usados / " FUNCTION TRIM(WS-DA) " libres" WS-CR.
            DISPLAY ESC "[42C" ESC C-BOLD ESC C-GREEN "Idioma    : " ESC C-RESET FUNCTION TRIM(WS-LANG) WS-CR.
            DISPLAY ESC "[42C" ESC C-BOLD ESC C-GREEN "Home      : " ESC C-RESET FUNCTION TRIM(WS-HOME) WS-CR.
+           DISPLAY ESC "[42C" ESC C-BOLD ESC C-GREEN "Programador:" ESC C-RESET " srsaiet https://github.com/srsaiet" WS-CR.
            DISPLAY ESC "[42C" ESC "[40m   " ESC "[41m   " ESC "[42m   " ESC "[43m   " ESC "[44m   " ESC "[45m   " ESC "[46m   " ESC "[47m   " ESC C-RESET WS-CR.
            DISPLAY ESC "[42C" ESC "[100m   " ESC "[101m   " ESC "[102m   " ESC "[103m   " ESC "[104m   " ESC "[105m   " ESC "[106m   " ESC "[107m   " ESC C-RESET WS-CR.
            IF IMG-DN >= 0
