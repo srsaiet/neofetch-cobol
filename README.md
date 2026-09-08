@@ -27,6 +27,7 @@ gcobol -o neofetch neofetch.cob
 El base64 de la imagen va incrustado en el propio `neofetch.cob`
 (decodificado en COBOL puro, sin dependencias externas para la imagen).
 
+
 ![Neofetch-cobol](neofetch-cobol.png)
 
 
