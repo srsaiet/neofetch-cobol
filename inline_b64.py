@@ -1,5 +1,5 @@
-SRC = '/home/jihdez/cobol/neofetch.cob'
-CPY = '/home/jihdez/cobol/b64data.cpy'
+SRC = '/home/srsaiet/cobol/neofetch.cob'
+CPY = '/home/srsaiet/cobol/b64data.cpy'
 with open(SRC, encoding='utf-8') as f:
     src = f.read()
 with open(CPY, encoding='utf-8') as f:
